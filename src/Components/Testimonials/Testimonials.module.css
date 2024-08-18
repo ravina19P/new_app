@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.TEST {
+    padding: 150px;
+    border-radius: 40% 0 0 40%;
+    overflow-x: hidden;
+}
+
+.TEST h6,
+.TEST h2,
+.TEST p {
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.Item {
+    background-color: #2e7eed;
+    border-radius: 25px;
+    padding: 80px;
+}
+
+.Item p {
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.Item h4 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.Carouseldiv {
+    margin: 100px;
+    margin-right: -200px;
+}
+
+@media (max-width: 768px) {
+    .TEST {
+        padding: 20px; 
+        border-radius: 0;
+        background: none; 
+        padding-left: 0; 
+    }
+
+    .Carouseldiv {
+        margin: 20px; 
+        margin-right: 0; 
+    }
+
+    .Item {
+        padding: 20px; 
+    }
+
+    .Item p {
+        font-size: 16px; 
+        line-height: 30px;
+    }
+
+    .Item h4 {
+        font-size: 18px;
+    }
+}

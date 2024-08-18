@@ -1,0 +1,86 @@
+.Price_P {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: #808080;
+    margin-bottom: 0;
+}
+
+.Btn_grp {
+    height: 32px !important;
+    width: 300px !important;
+    margin: 20px auto;
+    background: #f2f2f2;
+    background: #d7d7d7;
+    border-radius: 60px !important;
+}
+
+.grp_btn {
+    font-weight: bold !important;
+    line-height: 32px;
+    font-size: 13px !important;
+    color: #676A6B !important;
+    text-align: center !important;
+    border-radius: 30px !important;
+}
+
+.active {
+    background-color: #007bff !important;
+    color: white !important;
+}
+
+.price_tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_tag h2 {
+    font-weight: 700 !important;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.price_content {
+    display: inline-flex;
+    align-items: baseline; 
+    border-bottom: 5px solid #007bff;
+    padding: 25px;
+}
+
+.Start_BTN {
+    text-transform: uppercase;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    border-radius: 30px !important;
+    margin-top: 30px;
+}
+.List_item {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.List_item ul {
+    padding-left: 0; 
+    margin: 0; 
+    text-align: left; 
+}
+
+.List_item li {
+    color: #808080;
+    line-height: 30px;
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-bottom: 10px;
+}
+
+
+.icon {
+    color: #007bff; 
+    margin-right: 5px; 
+    font-weight:bolder!important;
+}
+.card {
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
